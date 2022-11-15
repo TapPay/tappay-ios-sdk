@@ -38,6 +38,10 @@ end
 pod install
 ```
 > e. Finally the SDK is available for the project by using the .xcwrokspace file
+
 ***
 <a name="package"></a>
 ## Swift Package
+
+> a. Follow the steps of the image to add a new package dependency <br>
+![](./tutorial images/Swift Package Tutorial 1.png)
