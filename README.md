@@ -2,9 +2,19 @@
 
 ### TapPay provides the following methods to let developers install TPDirect SDK into their projects
 
+---
+
+## How to install
+
 ### 1. Download TPDirect.xcframework directly
 ### [2. Cocoapods](#cocoapods)
 ### [3. Swift Package](#package)
+
+---
+
+## How to use the mehods in SDK
+
+> Please refer to the exmaple page [tappay-ios-example](https://github.com/TapPay/tappay-ios-example)
 
 ***
 <a name="cocoapods"></a>
