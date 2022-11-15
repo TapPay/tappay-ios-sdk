@@ -43,5 +43,11 @@ pod install
 <a name="package"></a>
 ## Swift Package
 
-> a. Follow the steps of the image to add a new package dependency <br>
-![](./tutorial images/Swift Package Tutorial 1.png)
+> a. Follow the steps of the image to add a new package dependency <br><br>
+![](./tutorial_images/Swift_Package_Tutorial_1.png) <br><br>
+> b. Input the url of this repository, then change the "Dependency Rule" to "Branch" and set it as master branch <br><br>
+![](./tutorial_images/Swift_Package_Tutorial_2.png) <br><br>
+> c. Click add package <br><br>
+![](./tutorial_images/Swift_Package_Tutorial_3.png) <br><br>
+> d. If the installation is success, then the package will appear in the side menu, and you can use the SDK by adding "@import TPDirect;" <br><br>
+![](./tutorial_images/Swift_Package_Tutorial_4.png)
