@@ -1,20 +1,28 @@
 # tappay-ios-sdk
 
-### TapPay provides the following methods to let developers install TPDirect SDK into their projects
+### The TapPay iOS SDK helps you build customizable payments into your iOS app
 
 ---
 
 ## How to install
 
-### 1. Download TPDirect.xcframework directly
-### [2. Cocoapods](#cocoapods)
-### [3. Swift Package](#package)
+The TapPay iOS SDK is open source, and provided by the following method
+
+#### [1. Manual Framework](#manual)
+#### [2. Cocoapods](#cocoapods)
+#### [3. Swift Package](#package)
 
 ---
 
 ## How to use the mehods in SDK
 
 > Please refer to the exmaple page [tappay-ios-example](https://github.com/TapPay/tappay-ios-example)
+
+---
+<a name="manual"></a>
+## Manual Framework
+> a. Head to [releases page](https://github.com/TapPay/tappay-ios-sdk/releases) and download and unzip TPDirect.xcframework.zip <br>
+> b. Drag TPDirect.xcframework to the "Frameworks, Libraries and Embedded Content" section of the General settings in your Xcode project. Make sure to select Copy items if needed.
 
 ***
 <a name="cocoapods"></a>
