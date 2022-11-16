@@ -6,7 +6,7 @@
 
 ## How to install
 
-The TapPay iOS SDK is open source, and provided by the following method
+The TapPay iOS SDK is open source, and provided by the following methods
 
 #### [1. Manual Framework](#manual)
 #### [2. Cocoapods](#cocoapods)
@@ -14,14 +14,14 @@ The TapPay iOS SDK is open source, and provided by the following method
 
 ---
 
-## How to use the mehods in SDK
+## How to use the methods in SDK
 
-> Please refer to the exmaple page [tappay-ios-example](https://github.com/TapPay/tappay-ios-example)
+> Please refer to the example page [tappay-ios-example](https://github.com/TapPay/tappay-ios-example)
 
 ---
 <a name="manual"></a>
 ## Manual Framework
-> a. Head to [releases page](https://github.com/TapPay/tappay-ios-sdk/releases) and download and unzip TPDirect.xcframework.zip <br>
+> a. Download the TPDirect.xcframework.zip from  [releases page](https://github.com/TapPay/tappay-ios-sdk/releases)  and unzip it <br>
 > b. Drag TPDirect.xcframework to the "Frameworks, Libraries and Embedded Content" section of the General settings in your Xcode project. Make sure to select Copy items if needed.
 
 ***
@@ -63,7 +63,7 @@ pod install
 
 > a. Follow the steps of the image to add a new package dependency <br><br>
 ![](./tutorial_images/Swift_Package_Tutorial_1.png) <br><br>
-> b. Input the url of this repository, then change the "Dependency Rule" to "Branch" and set it as master branch <br><br>
+> b. Enter https://github.com/TapPay/tappay-ios-sdk.git as the repository URL and set it as master branch <br><br>
 ![](./tutorial_images/Swift_Package_Tutorial_2.png) <br><br>
 > c. Click add package <br><br>
 ![](./tutorial_images/Swift_Package_Tutorial_3.png) <br><br>
