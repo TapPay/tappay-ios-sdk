@@ -10,7 +10,7 @@ The TapPay iOS SDK is open source, and provided by the following methods
 
 #### [1. Manual Framework](#manual)
 #### [2. Swift Package](#package)
-
+#### [3.Deprecate Cocoapods](#cocoapods)
 ---
 
 ## How to use the methods in SDK
@@ -20,7 +20,7 @@ The TapPay iOS SDK is open source, and provided by the following methods
 ---
 <a name="manual"></a>
 ## Manual Framework
-> a. Download the TPDirect.xcframework.zip from  [releases page](https://github.com/TapPay/tappay-ios-sdk/releases)  and unzip it <br>
+> a. Download the TPDirect.xcframework.zip from [releases page](https://github.com/TapPay/tappay-ios-sdk/releases) and unzip it <br>
 > b. Drag TPDirect.xcframework to the "Frameworks, Libraries and Embedded Content" section of the General settings in your Xcode project. Make sure to select Copy items if needed.
 
 ***
@@ -35,3 +35,10 @@ The TapPay iOS SDK is open source, and provided by the following methods
 ![](./tutorial_images/Swift_Package_Tutorial_3.png) <br><br>
 > d. If the installation is success, then the package will appear in the side menu, and you can use the SDK by adding "@import TPDirect;" <br><br>
 ![](./tutorial_images/Swift_Package_Tutorial_4.png)
+
+<a name="cocoapods"></a>
+## Deprecate Cocoapods
+TapPay has discontinued support for updating the iOS SDK through CocoaPods. \
+If you have previously installed the tappay-ios-sdk using CocoaPods, the SDK may still be available in your local CocoaPods repo.\
+You can check if the SDK is still present by running `pod repo list`.\
+To remove the SDK, use the command `pod repo remove tappay-tappay-ios-sdk.`
